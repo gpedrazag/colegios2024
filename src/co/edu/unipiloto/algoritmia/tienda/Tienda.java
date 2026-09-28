@@ -15,6 +15,9 @@ public class Tienda {
     private Producto p3;
     private Producto p4;
     
+    //private Producto[] catalogo;
+    
+       
     // constuctor
 
     public Tienda() {

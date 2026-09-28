@@ -16,6 +16,8 @@ public class TiendaCtrl {
     public static void main(String[] args) {
         // TODO code application logic here
         //Primer producto libreta de apuntes
+        System.out.println("ALGORITMIA- Talleres");
+                
         Producto libreta=new Producto("Libreta de apuntes", Producto.PAPELERIA, 23, 15, 5500, 87);
         System.out.println(" OBJETO"+ libreta.toString());
         
@@ -37,9 +39,7 @@ public class TiendaCtrl {
         System.out.println("MI TIENDA" +miTienda.toString());
         
         
-        //Expresion cantidad en bodega - cantidad minima de leche
-        int diferenciaBodegaMinimo= leche.getCantidadBodega()-leche.getCantidadMinima();
-        System.out.println(" Expresion cantidad en bodega - cantidad minima de leche"+ diferenciaBodegaMinimo);
+        
     }
     
 }
