@@ -22,7 +22,7 @@ public class TiendaCtrl {
         System.out.println(" OBJETO"+ libreta.toString());
         
         //Seguno producto
-        Producto leche=new Producto("Leche en bolsa de 1 litro", Producto.SUPERMERCADO, 150, 30, 2100, 30);
+        Producto leche=new Producto("Leche en bolsa de 1 litro", Producto.SUPERMERCADO, 150, 30, 2500, 45);
         System.out.println(" OBJETO"+ leche.toString());
         
         //Tercer producto Jabon
